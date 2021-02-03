@@ -6,13 +6,13 @@
 // These are the only settings you need to get started.
 
 // 12-digit AWS account ID
-aws_account_id = ""
+aws_account_id = "370653655110"
 
 // AWS region in which to deploy the BinaryAlert components.
 aws_region = "us-east-1"
 
 // Prefix used in all resource names (required for uniqueness). E.g. "company_team"
-name_prefix = ""
+name_prefix = "versatech"
 
 
 /* ********** [Auto-Configured] Optional CarbonBlack Downloader ********** */
@@ -101,7 +101,7 @@ external_kms_key_resources = []
 
 // ##### SNS #####
 // Create a separate SNS topic which reports files that do NOT match any YARA rules.
-enable_negative_match_alerts = false
+enable_negative_match_alerts = true
 
 
 // ##### SQS #####
